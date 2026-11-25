@@ -1,0 +1,4 @@
+permissive epdg_wod
+allow init epdg_wod_exec file { read getattr execute execute_no_trans open }
+allow init epdg_wod process { transition siginh rlimitinh }
+allow init epdg_wod process2 { nosuid_transition }

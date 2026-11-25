@@ -1,0 +1,10 @@
+#!/sbin/sh
+#################
+# Magisk Module Installer Script
+#################
+OUTFD=$2
+ZIPFILE=$3
+
+if [ -f /data/adb/magisk/busybox ]; then
+    exec /data/adb/magisk/busybox sh -c "$(/data/adb/magisk/busybox unzip -p "$ZIPFILE" customize.sh)"
+fi

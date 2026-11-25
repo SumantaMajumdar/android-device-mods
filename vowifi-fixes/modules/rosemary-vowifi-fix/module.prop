@@ -1,0 +1,6 @@
+id=rosemary_vowifi_fix
+name=Rosemary MediaTek VoWiFi & WOD Fix
+version=v1.0
+versionCode=1
+author=SumantaMajumdar
+description=Restores Wi-Fi Calling (VoWiFi) on user and userdebug custom ROMs for Redmi Note 10S (rosemary / MT6785). Restores epdg_wod, libwo.so, mtkimsprobe, MediaTek IMS properties, and persistent CarrierConfig overrides.

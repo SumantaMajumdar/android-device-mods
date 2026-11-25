@@ -1,0 +1,6 @@
+id=airtel_vowifi_fix
+name=Airtel VoWiFi Fix for Ruby/Rubyx
+version=v1.0
+versionCode=1
+author=SumantaMajumdar
+description=Restores VoWiFi (Wi-Fi Calling) for Airtel India by updating CarrierConfig and enabling MediaTek VoWiFi properties.

@@ -1,0 +1,11 @@
+service vendor.wfc_capability_override /system/bin/sh -c "exec /system/bin/app_process -Djava.class.path=/system_ext/etc/mtkimsprobe.dex /system/bin MtkImsProbe enable-cache"
+    class late_start
+    user shell
+    group shell system radio
+    disabled
+    oneshot
+    seclabel u:r:shell:s0
+
+on property:sys.boot_completed=1
+    setprop vendor.ril.imsconfig.force.notify 1
+    start vendor.wfc_capability_override

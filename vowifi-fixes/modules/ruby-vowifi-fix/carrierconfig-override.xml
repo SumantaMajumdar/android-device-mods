@@ -1,0 +1,9 @@
+<bundle>
+<boolean name="carrier_volte_provisioned_bool" value="true" />
+<boolean name="carrier_wfc_supports_wifi_only_bool" value="true" />
+<string name="__carrier_config_package_version__">1</string>
+<boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+<boolean name="imsserviceentitlement.skip_wfc_activation_bool" value="true" />
+<boolean name="carrier_wfc_ims_available_bool" value="true" />
+<boolean name="carrier_volte_available_bool" value="true" />
+</bundle>
